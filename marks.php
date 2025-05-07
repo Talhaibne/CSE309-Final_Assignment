@@ -3,20 +3,25 @@
 
 // Data for the table
 $marksData = [
-    [
+   [
         "mark" => 15,
-        "justification" => "Full implementation of user management system including database integration and CRUD operations.",
-        "internal_route" => "profile.php"
+        "justification" => "Frontend Development using HTML,CSS,Bootstrap.",
+        "internal_route" => "index.php, style.css, product cards, header and footer components"
     ],
     [
         "mark" => 15,
-        "justification" => "Successful dockerization of the app with Docker and Docker Compose setup.",
-        "internal_route" => "docker setup done"
+        "justification" => "Backend Logic. Implement server side logic for product listing, cart management, and order processing.",
+        "internal_route" => "add_to_cart.php, cart.php, checkout.php, part of index.php"
     ],
     [
         "mark" => 15,
-        "justification" => "Valid user authentication system with secure login and role management.",
-        "internal_route" => "login.php"
+        "justification" => "Database Design and Integration using MySQL.",
+        "internal_route" => "db_config.php, SQL scripts, Product data population."
+    ],
+    [
+        "mark" => 15,
+        "justification" => "Admin Panel & Testing.",
+        "internal_route" => "admin_dash board.php, Test cases and error logs."
     ]
 ];
 ?>
