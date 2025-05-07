@@ -5,12 +5,12 @@ header('Content-Type: application/json');
 
 
 $project_details = array(
-    "name" => "Your Full Name", // Replace with your name
-    "id" => "Your University ID", // Replace with your university ID
-    "personal_notion_page" => "https://link_to_your_notion_page", // Replace with your personal Notion page link
-    "personal_group_page_notion" => "https://link_to_your_group_notion_page", // Replace with your group Notion page link
-    "github_id" => "YourGitHubID", // Replace with your GitHub ID
-    "project_github_link" => "https://github.com/your_project_link" // Replace with your project's GitHub link
+    "name" => "Md Talha Ibne Anwar", 
+    "id" => "1722021", 
+    "personal_notion_page" => "https://www.notion.so/1e78f24c81e1804a9b62d0060e3d7dcd",
+    "personal_group_page_notion" => "N/A", 
+    "github_id" => "https://github.com/Talhaibne", 
+    "project_github_link" => "https://github.com/Talhaibne/CSE309-Final_Assignment"
 );
 
 

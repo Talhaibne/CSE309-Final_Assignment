@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+  php:
+    build: .
+    container_name: php-app
+    ports:
+      - "80:80"  # Expose port 80 to access the app
+    volumes:
+      - ./Talha:/var/www/html  # Bind mount the project directory
+    networks:
+      - mynetwork
+    environment:
+      - DB_HOST=mysql
+      - DB_USER=root
+      - DB_PASS=""
+      - DB_NAME=swiftbuy
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql-db
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"  # Allow empty root password
+      MYSQL_DATABASE: swiftbuy
+    ports:
+      - "3306:3306"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge

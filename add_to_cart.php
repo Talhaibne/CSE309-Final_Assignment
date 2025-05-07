@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Redirect to cart.php
-    header("Location: cart.php");
+    header("Location: user_dashboard.php");
     exit();
 }
 ?>
